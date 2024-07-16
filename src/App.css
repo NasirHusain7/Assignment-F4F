@@ -1,0 +1,50 @@
+/* General table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+th, td {
+  padding: 10px 32px;
+  border: 1px solid #000000;
+  text-align: center;
+  white-space: nowrap;
+}
+
+tr {
+  border: 2px solid black;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+span {
+  height: 20px;
+  font-size: small;
+  /* border: 1px solid black; */
+  margin: 0px 5px;
+}
+
+/* Freeze first column */
+th.frez,
+td.frez {
+  position: sticky;
+  left: 0;
+  background-color: white;
+  z-index: 1; 
+}
+td div{
+  border: 1px solid lightgray;
+}
